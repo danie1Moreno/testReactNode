@@ -1,0 +1,69 @@
+.container {
+  background-color: #ddd;
+}
+a:link,
+a:visited {
+  background-color: #8f6fdb;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1em;
+}
+
+a:hover,
+a:active {
+  background-color: 8f6fdb;
+}
+.navgrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-auto-columns: minmax(150px, auto);
+}
+
+.navgrid > ul > li {
+  list-style: none;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+.sectiongrid {
+  display: grid;
+  background-color: #ddd;
+  grid-template-columns: 50% 50%;
+}
+
+.sectiongrid > div > h2 {
+  color: rgb(115, 94, 211);
+  padding: 1em 1.5em;
+}
+
+.nestedgridS {
+  display: grid;
+  background-color: #ddd;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 1em;
+  justify-items: center;
+}
+
+.nestedgridS > li {
+  list-style: none;
+  color: rgba(78, 59, 165, 0.897);
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-align: center;
+}
+.nestedgridG {
+  display: grid;
+  background-color: #ddd;
+  grid-template-columns: repeat(auto-fill, 150px);
+  gap: 1em;
+}
+
+.nestedgridG > li {
+  list-style: none;
+  color: rgba(78, 59, 165, 0.897);
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-align: center;
+}
